@@ -1,0 +1,77 @@
+.form {
+  margin-top: 40px;
+  background: #ffffff;
+  padding: 30px;
+  width: 350px;
+}
+
+label,
+fieldset legend {
+  font-weight: 500;
+  color: #333;
+}
+
+input[type="number"],
+fieldset {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 10px 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.25s;
+}
+
+input[type="number"]:hover {
+  border-color: #7e7e7e;
+}
+
+input[type="number"]:focus {
+  border-color: #4c83ff;
+  box-shadow: 0 0 0 2px rgba(76, 131, 255, 0.25);
+}
+
+fieldset {
+  border: 1px solid #bdbdbd;
+  padding: 12px;
+  border-radius: 6px;
+  transition: 0.25s;
+}
+
+fieldset:hover {
+  border-color: #7e7e7e;
+}
+
+fieldset:focus-within {
+  border-color: #4c83ff;
+  box-shadow: 0 0 0 2px rgba(76, 131, 255, 0.25);
+}
+
+input[type="radio"] {
+  margin-right: 6px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px 0;
+  background: #4c83ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button[type="submit"]:hover {
+  background: #3b6ce0;
+}
+
+button[type="submit"]:active {
+  background: #2f54b8;
+  transform: scale(0.98);
+}
